@@ -1,8 +1,16 @@
+@font-face {
+  font-family: CyberwarRegular;
+  src: url(./Fonts/Cyberware/CyberwarRegular.ttf) format('truetype');
+}
+@font-face {
+  font-family: exwayer-font;
+  src: url(./Fonts/exwayer-font/Exwayer-X3eqa.ttf) format('truetype');
+}
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'CyberwarRegular','exwayer-font',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
